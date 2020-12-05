@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">InterviewHomework</string>
+
+    <!--  login information string  -->
+    <string name="user_name_empty">Account cannot be empty</string>
+    <string name="user_pwd_empty">Password cannot be empty</string>
+    <string name="user_info_incorrect">Account or Password is incorrect</string>
+
+    <!--  update timezone info  -->
+    <string name="update_success">Update Successfully</string>
+    <string name="update_failed">Update Failed</string>
+
+    <!--  Timezone  -->
+    <string-array name="timezone">
+        <item>GMT+0</item>
+        <item>GMT+1</item>
+        <item>GMT+2</item>
+        <item>GMT+3</item>
+        <item>GMT+4</item>
+        <item>GMT+5</item>
+        <item>GMT+6</item>
+        <item>GMT+7</item>
+        <item>GMT+8</item>
+        <item>GMT+9</item>
+        <item>GMT+10</item>
+        <item>GMT+11</item>
+        <item>GMT+12</item>
+        <item>GMT-0</item>
+        <item>GMT-1</item>
+        <item>GMT-2</item>
+        <item>GMT-3</item>
+        <item>GMT-4</item>
+        <item>GMT-5</item>
+        <item>GMT-6</item>
+        <item>GMT-7</item>
+        <item>GMT-8</item>
+        <item>GMT-9</item>
+        <item>GMT-10</item>
+        <item>GMT-11</item>
+        <item>GMT-12</item>
+    </string-array>
+</resources>
