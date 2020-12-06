@@ -29,7 +29,7 @@ class ShowInfoFragment: Fragment(R.layout.fragment_show), OnItemSelectedListener
         timeZoneSpinner = view.findViewById(R.id.timezone_selector)
 
         viewModel = ViewModelProvider(requireActivity()).get(MainViewModel::class.java)
-        emailText.text = viewModel.email.value
+        emailText.text = resources.getString(R.string.email) + " " + viewModel.email.value
         val observer = Observer<String>  {
             newMsg -> run {
                 when(newMsg) {
@@ -39,6 +39,7 @@ class ShowInfoFragment: Fragment(R.layout.fragment_show), OnItemSelectedListener
                     }
                     MainViewModel.TAG_SUCCESS -> {
                         updateMsgText.text = resources.getString(R.string.update_success)
+
                         updateMsgText.visibility = View.VISIBLE
                     }
                     MainViewModel.TAG_CLEAR -> {
