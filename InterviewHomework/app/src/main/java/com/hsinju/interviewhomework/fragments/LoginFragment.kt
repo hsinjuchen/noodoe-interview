@@ -8,13 +8,14 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.google.android.material.textfield.TextInputEditText
 import com.hsinju.interviewhomework.MainActivity
 import com.hsinju.interviewhomework.MainViewModel
 import com.hsinju.interviewhomework.R
 
 class LoginFragment: Fragment(R.layout.fragment_login) {
-    private lateinit var accountEdit: EditText
-    private lateinit var pwdEdit: EditText
+    private lateinit var accountEdit: TextInputEditText
+    private lateinit var pwdEdit: TextInputEditText
     private lateinit var loginBtn: Button
     private lateinit var errorMsgText: TextView
 

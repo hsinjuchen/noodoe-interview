@@ -42,6 +42,8 @@
 
     <!--  widget text  -->
     <string name="login_btn">LOG IN</string>
-    <string name="email">Email: </string>
+    <string name="email_pretext">Email: </string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
 
 </resources>
