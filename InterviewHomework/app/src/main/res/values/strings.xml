@@ -39,4 +39,9 @@
         <item>GMT-11</item>
         <item>GMT-12</item>
     </string-array>
+
+    <!--  widget text  -->
+    <string name="login_btn">LOG IN</string>
+    <string name="email">Email: </string>
+
 </resources>
